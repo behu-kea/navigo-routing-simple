@@ -1,13 +1,13 @@
 # Fullstack frontend
 
-This repo is supposed to provide as a boilerplate for setting up routing, authentication and interaction with an api.
+This repo is supposed to provide as a boilerplate for doing routing using Navigo
 
-The code for the backend api can be found here: https://github.com/behu-kea/tomas-order-site
-
-It is hosted at Heroku at this url: https://tomas-order-site.herokuapp.com/
+This site is deployed at https://roomy-fact.surge.sh
 
 ## Running the project
 
-Run the `index.html` using Liver Server.
+In the bottom right corner click the `Go live` button. That should give you a url like http://127.0.0.1:5500/
 
-First make sure that [the project shown above](https://github.com/behu-kea/tomas-order-site) is running.
+## Deploying
+
+To deploy this projet use https://surge.sh/. There is a super nice video that shows how this is done!
