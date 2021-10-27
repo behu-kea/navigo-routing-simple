@@ -1,6 +1,6 @@
 # Fullstack frontend
 
-This repo is supposed to provide as a boilerplate for doing routing using Navigo
+This repo is supposed to provide as a boilerplate for doing routing using [Navigo](https://github.com/krasimir/navigo)
 
 This site is deployed at https://roomy-fact.surge.sh
 
