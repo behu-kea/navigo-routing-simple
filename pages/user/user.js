@@ -6,7 +6,12 @@ export default (userId) => {
     .then((userHtml) => {
       content.innerHTML = userHtml;
 
-      const h2 = document.querySelector("h2");
-      h2.innerText = `${userId}'s user page`;
+      return fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
+        .then((response) => response.json())
+        .then((user) => {
+          document.querySelector("h2").innerText = `${user.name}'s user page`;
+          document.querySelector("li.phone").innerHTML = user.phone;
+          document.querySelector("li.email").innerHTML = user.email;
+        });
     });
 };
