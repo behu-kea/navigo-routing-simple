@@ -5,7 +5,7 @@ import renderLogin from "./pages/login/login.js";
 import renderUsers from "./pages/users/users.js";
 
 export default function () {
-  window.router = new Navigo("/", { hash: true });
+  const router = new Navigo("/", { hash: true });
 
   router
     .on({
